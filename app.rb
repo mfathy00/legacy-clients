@@ -17,4 +17,15 @@ class App < Sinatra::Base
     # [status, body]
     [201, movie.to_json]
   end
+
+  get "/create_movie" do
+    movie = {
+      title: params["title"],
+      director: params["director"],
+      actors: params["actors"].split('XXX')
+    }
+
+    # [status, body]
+    [201, movie.to_json]
+  end
 end
