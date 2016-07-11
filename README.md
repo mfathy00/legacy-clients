@@ -1,4 +1,5 @@
-# legacy-clients.challenge
+# legacy-clients.challenge 
+[![Build Status](https://travis-ci.org/mfathy00/legacy-clients.svg?branch=master)](https://travis-ci.org/mfathy00/legacy-clients)
 
 A Sinatra app that collects data about movies. Each movie has a `title`, `director` and a list of `actors`.
 
