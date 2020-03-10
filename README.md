@@ -1,4 +1,5 @@
 # legacy-clients.challenge 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/45c5f4cfecf44921820c7e8e2c7b6e3d)](https://app.codacy.com/manual/mfathy00/legacy-clients?utm_source=github.com&utm_medium=referral&utm_content=mfathy00/legacy-clients&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.org/mfathy00/legacy-clients.svg?branch=master)](https://travis-ci.org/mfathy00/legacy-clients)
 
 A Sinatra app that collects data about movies. Each movie has a `title`, `director` and a list of `actors`.
